@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Redux TodoList</title>
+</head>
+<body>
+<div class="container text-center">
+    <div class="jumbotron">
+        <h1 class="h1">todo-list</h1>
+        <hr />
+        <form id="todoForm" action="#">
+            <Label>Enter Todo</Label>
+            <input class="text-dark" type="text" id="todo" required>
+            <br />
+            <button class="btn btn-dark" type="submit">Add todo</button>
+        </form>
+    </div>
+</div>
+<br/>
+<div>
+    <ul id="todos" class="list-group">
+    </ul>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.0.1/redux.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

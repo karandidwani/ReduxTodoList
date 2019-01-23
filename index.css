@@ -1,0 +1,65 @@
+body {
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('https://image.freepik.com/free-vector/light-blue-geometric-background_1378-198.jpg');
+}
+
+.jumbotron{
+    padding: 2em ;
+    padding-left: 10em;
+    padding-right: 10em;
+    background-color: transparent;
+    margin-bottom: 0px;
+}
+
+form {
+    margin: 2em;
+    margin-bottom: 0px;
+    padding: 2em;
+    box-shadow: 3px 3px #7b7b7b;
+    background-color: rgba(0,0,0,0.40);
+}
+
+label {
+    color: white;
+    font-size: 1.25em;
+    margin-right: 0.5em;
+    font-weight: bold;
+}
+
+input {
+    box-shadow: 3px 3px #7b7b7b;
+}
+
+.h1 {
+    color: white;
+    font-size: 5.25em;
+    text-align: center;
+    text-shadow: 3px 3px #7b7b7b;
+}
+
+.btn-dark {
+    margin-top: 1em;
+    box-shadow: 3px 3px #7b7b7b;
+}
+
+.btn-danger {
+   align-items: end;
+}
+
+.btn-danger:hover {
+    cursor: pointer;
+    transform: scale(1.25);
+}
+
+.list-group {
+    width: 600px;
+}
+
+.list-group-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
